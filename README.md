@@ -12,7 +12,7 @@ SmolFin adalah sebuah aplikasi sederhana untuk mencatat dan menganalisis pengelu
 
 ## Cara Menggunakan SmolFin
 
-1. Jalankan file `smolfin.exe` untuk memulai aplikasi.
+1. Jalankan file `smolfin.py` untuk memulai aplikasi.
 2. Pilih operasi yang ingin Anda lakukan:
    - Masukkan data: Memasukkan pengeluaran harian.
    - Mengedit data: Mengubah data pengeluaran yang sudah ada.
@@ -24,21 +24,6 @@ SmolFin adalah sebuah aplikasi sederhana untuk mencatat dan menganalisis pengelu
 3. Ikuti petunjuk yang diberikan dalam setiap operasi.
 4. Anda dapat melanjutkan atau menghentikan operasi setelah setiap langkah.
 5. Setelah selesai, aplikasi akan menutup.
-
-## Panduan Penginstalan Ulang
-
-Jika Anda perlu menginstal ulang, ikuti langkah-langkah berikut:
-
-1. Hapus semua file, kecuali `app.py`.
-2. Install Python versi terbaru.
-3. Buka cmd atau terminal, lalu ketikkan perintah berikut satu per satu:
-   - `pip install pandas`
-   - `pip install matplotlib`
-   - `pip install pyinstaller`
-4. Ubah `app.py` menjadi `.exe` dengan menggunakan perintah berikut di cmd:
-   - `cd [direktori file]`
-   - `pyinstaller app.py --onefile`
-5. Tunggu hingga SmolFin terinstal kembali.
 
 ## Panduan Mengedit File 'data.csv' Secara Manual
 
